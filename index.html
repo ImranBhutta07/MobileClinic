@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Clinic</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="headertop">
+            <p><i class="fa-solid fa-envelope"> </i><a href=""> info@mobileclinicms.com</a></p>
+            <p><i class="fa-solid fa-location-dot"> </i><a href=""> 2601 N State St, Jackson, MS 39216</a></p>
+        </div>
+    </header>
+    <div class="headerbottom">
+        <div class="logo">
+            <img src="images/logo.png" alt="" style="height: 75px;">
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Repair<i class="fa-solid fa-angle-down"></i></a></li>
+                <li><a href="">Buy/sell</a></li>
+                <li><a href="">Contact</a></li>
+
+            </ul>
+        </div>
+        <div class="header-btn">
+            <button>Get Instant Quote</button>
+        </div>
+        <div class="menuicon" id="mobilemenu" onclick="hamburger()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+    </div>
+
+    <!-- ========================================================================== -->
+
+    <section class="main">
+
+        <div class="menubar" id="menubar">
+            <ul>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Repair<i class="fa-solid fa-angle-down"></i></a></li>
+                <li><a href="">Buy/sell</a></li>
+                <li><a href="">Contact</a></li>
+                <p><i class="fa-solid fa-envelope"> </i><a href=""> info@mobileclinicms.com</a></p>
+                <p><i class="fa-solid fa-location-dot"> </i><a href=""> 2601 N State St, Jackson, MS 39216</a></p>
+                <div class="header-btn">
+                    <button>Get Instant Quote</button>
+                </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="previousbtn" onclick="nextandprevious(1)">
+            <i class="fa-solid fa-angle-left"></i>
+        </div>
+        <h1> Professional Laptop & Mobile repair <br> solutions for broken devices!</h1>
+
+        <div class="nextbtn" onclick="nextandprevious(1)">
+            <i class="fa-solid fa-angle-right"></i>
+        </div>
+    </section>
+    <section class="main"
+        style="display: none; background-image: url(images/bg22.svg); background-position: center; padding: 0px 30px;">
+
+        <div class="menubar" id="barmenu">
+            <ul>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Repair<i class="fa-solid fa-angle-down"></i></a></li>
+                <li><a href="">Buy/sell</a></li>
+                <li><a href="">Contact</a></li>
+                 <p><i class="fa-solid fa-envelope"> </i><a href=""> info@mobileclinicms.com</a></p>
+                <p><i class="fa-solid fa-location-dot"> </i><a href=""> 2601 N State St, Jackson, MS 39216</a></p>
+                    <div class="header-btn">
+                        <button>Get Instant Quote</button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="previousbtn" onclick="nextandprevious(1)">
+            <i class="fa-solid fa-angle-left"></i>
+        </div>
+        <h1 style="font-size: 50px;"> iPhone, Cellphone & Smartphone Repairing <br> Services in jackson, MS</h1>
+        <div class="nextbtn" onclick="nextandprevious(1)">
+            <i class="fa-solid fa-angle-right"></i>
+        </div>
+    </section>
+
+    <!-- ======================================================================= -->
+
+    <section class="bgdevice">
+        <div class="selectdevice">
+            <h3 style="color: blue;">YOUR GO-TO STORE FOR REPAIR</h3>
+            <h1 style="font-size: 40px;"><b>Select Your Device</b></h1>
+            <div class="devices">
+                <div class="item">
+                    <img src="images/iPhone.png" alt="">
+                    <h3>iPhone</h3>
+                </div>
+                <div class="item">
+                    <img src="images/Smart-Phone.png" alt="">
+                    <h3>Android Phone</h3>
+
+                </div>
+                <div class="item">
+                    <img src="images/Computer.png" alt="">
+                    <h3>Computer</h3>
+                </div>
+                <div class="item">
+                    <img src="images/iWatch.png" alt="">
+                    <h3>iWatch</h3>
+                </div>
+                <div class="item">
+                    <img src="images/Gaming-Console.png" alt="">
+                    <h3>Gaming Console</h3>
+                </div>
+            </div>
+            <div class="callnow">
+                <p><b>Cracked Screen? Quality Repair at a Price You'll Love!</b></p>
+                <button><i class="fa-solid fa-phone-volume"></i> <b>Call Now</b></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================================================================= -->
+
+    <section class="features">
+        <p style="text-align: center; padding: 10px; color: blue; margin-top: 30px;"><b>No. 1 STORE FOR PROFESSIONAL
+                REPAIRES AND DEVICE TRADE-IN!</b></p>
+        <h1>What Sets Us Apart from Others in Jackson,<br> MS</h1>
+        <div class="featurecards">
+            <div class="skill">
+                <h2>Skilled <br>Technicians</h2>
+                <p>Our team of experts will solve the issue- whatever it is!</p>
+                <button> <img src="images/Professional Technicians.png" alt=""> Get a Quote <i
+                        class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <div class="Warranty">
+                <h2>Extended <br>Warranty</h2>
+                <p>Hassle Free Warranty backs all our repairs and replacements!</p>
+
+                <button> <img src="images/Warranty.png" alt=""> Get a Quote <i
+                        class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <div class="repair">
+                <h2>100% Repair <br>Satisfaction</h2>
+                <p>We ensures that perfection is achieved in all repair services!</p>
+
+                <button> <img src="images/repair.png" alt=""> Get a Quote <i
+                        class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================================================================== -->
+
+    
+  <section class="clientreview" id="clientreview">
+
+     <p style="padding: 0px 50px; color: blue;">OUR TESTIMONIALS</p>
+        <div class="row">
+            <h1 style="font-size: 45px;">What Our Clients Say About Mobile Clinic!</h1>
+            <p style="color: gray;">We try our level best to meet the expectations of our customers!</p>
+        </div>
+
+  <div class="clintcards" id="clintcards">
+    <div class="card">
+                <div class="qoeticon">
+                    <span> <i class="fa-solid fa-quote-left"></i></span>
+                </div>
+                <div class="description">
+                    <p style="line-height: 1.5; color: #5e5d5d;">Work was done in less than 3 days and perfectly fixed
+                        my phone. All other places gave me times of over 5-7 days just to get the parts and not even the
+                        actual fix.</p>
+                    <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i></span>
+                </div>
+                <div class="customername">
+                        <h3>Joseph Araujo</h3>
+                    <strong>Customer</strong>
+                    </div>
+            </div>
+    <div class="card">
+                <div class="qoeticon">
+                    <i class="fa-solid fa-quote-left"></i>
+                </div>
+                <div class="description">
+                    <p style="line-height: 1.5; color: #5e5d5d;">Doc was very helpful at the mobile clinic, I have came
+                        to him and the past and he is always a pleasure to do business with. 10/10 highly recommend!!
+                    </p>
+                    <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i></span>
+                </div>
+                <div class="customername">
+                        <h3>Brad Robins</h3>
+                    <strong>Customer</strong>
+                    </div>
+            </div>
+   <div class="card">
+                <div class="qoeticon">
+                    <i class="fa-solid fa-quote-left"></i>
+                </div>
+                <div class="description">
+                    <p style="line-height: 1.5; color: #5e5d5d;">Second time using Doc to have my son’s and replaced PS5
+                        HDMI port replaced. He is the besf around and I have recommended him to all my dear friends.</p>
+                    <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i></span>
+                </div>
+                <div class="customername">
+                        <h3>Tara Jordan</h3>
+                    <strong>Customer</strong>
+                    </div>
+            </div>
+   <div class="card">
+                <div class="qoeticon">
+                    <span> <i class="fa-solid fa-quote-left"></i></span>
+                </div>
+                <div class="description">
+                    <p style="line-height: 1.5; color: #5e5d5d;">Work was done in less than 3 days and perfectly fixed
+                        my phone. All other places gave me times of over 5-7 days just to get the parts and not even the
+                        actual fix.</p>
+                    <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i></span>
+                    
+                </div>
+                <div class="customername">
+                        <h3>Joseph Araujo</h3>
+                    <strong>Customer</strong>
+                    </div>
+            </div>
+    <div class="card">
+                <div class="qoeticon">
+                    <i class="fa-solid fa-quote-left"></i>
+                </div>
+                <div class="description">
+                    <p style="line-height: 1.5; color: #5e5d5d;">Doc was very helpful at the mobile clinic, I have came
+                        to him and the past and he is always a pleasure to do business with. 10/10 highly recommend!!
+                    </p>
+                    <span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i></span>
+                </div>
+                <div class="customername">
+                        <h3>Brad Robins</h3>
+                    <strong>Customer</strong>
+                    </div>
+            </div>
+  </div>
+  </section>
+
+    <!-- ============================================================================ -->
+
+    <section class="aboutus">
+        <div class="image">
+            <img style="height: 355px; width: 450px; position: absolute; bottom: 85px; left: 55px;"
+                src="images/repairing-2.jpg" alt="">
+            <img style="position: absolute; right: 30px; top: 50px;" src="images/repairing-1.jpg" alt="">
+            <img style="position: absolute; right: 30px; bottom: 20px; height: auto; width: auto;"
+                src="images/repairing-3.png" alt="">
+        </div>
+        <div class="aboutclinic">
+            <p style="color: blue;">WHO WE ARE</p>
+            <h1 style="font-size: 50px;">About Mobile Clinic</h1>
+            <p style="color: blue;">TOP-QUALITY REPAIRES WITH CARE YOU CAN TRUST!</p>
+            <p style="line-height: 1.5; color: #686868;">We heavily rely on our smart devices for everything from
+                entertainment to completing work tasks. Any issues with these devices can disrupt our entire routine,
+                leading to frustration. That's where Mobile Clinic comes in, offering exceptional and dependable repair
+                services in Jackson, MS. Our shop provides a wide range of services, including smartphone repairs,
+                tablet screen replacement, laptop fixes, gaming console restoration, and more. Whether it's a faulty
+                battery or a cracked screen, we've encountered it all and can fix it. Additionally, you can upgrade or
+                sell your devices at our store. Don't wait—visit us today to experience exceptional value all under one
+                roof.</p>
+            <h3>24/7 Customer Service</h3>
+            <h3>Affordable Repair</h3>
+            <button><b>Get Instant Quote</b></button>
+        </div>
+    </section>
+
+    <!-- ============================================================================== -->
+
+    <section>
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3371.3197974050195!2d-90.1785928!3d32.3301233!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x862832e8f6b2a42b%3A0xfe3aa29013360d27!2sMobile%20Clinic!5e0!3m2!1sen!2s!4v1732181100457!5m2!1sen!2s"
+                frameborder="0"></iframe>
+        </div>
+    </section>
+
+    <!-- ========================================================================== -->
+
+    <section class="cashmobile">
+        <div class="cash">
+            <p style="color: white;">SELL YOUR DEVICE TODAY!</p>
+            <h1 style="font-size: 50px; color: white;">Turn your Tech into instant Cash!</h1>
+            <button><b>Sell a Device</b></button>
+        </div>
+        <div class="mobileimg">
+            <img src="images/Cash Image.png" alt="">
+        </div>
+        <div class="banner">
+            <h2 style="padding: 13px 70px;">Mobile Clinic</h2>
+            <p style="padding: 20px 0px;">|</p>
+            <p style="padding: 20px 50px; font-size: 17px;">Smart Repairs for Smart Devices.</p>
+        </div>
+    </section>
+
+    <!-- ============================================================================ -->
+
+    <section class="footer">
+        <div class="box">
+            <p style="text-align: justify;">Welcome to Mobile Clinic, your trusted tech repair experts dedicated to
+                providing fast, affordable, and reliable repairs. At Mobile Clinic, we prioritize quality and customer
+                satisfaction, ensuring that your devices are in the best hands. Whether it’s a gaming console, HDMI
+                Port, or any other repair service, we guarantee top-notch service.</p>
+        </div>
+        <div class="box">
+            <h3>Quick Links</h3>
+            <ul>
+                <li>iPhone Repair</li>
+                <li>iPad Repair</li>
+                <li>Computer Repair</li>
+                <li>Gaming Console Repair</li>
+                <li>HDMI Port Repair</li>
+            </ul>
+        </div>
+        <div class="box">
+            <h3>Contact</h3>
+            <a href=""> 2601 N State St, Jackson, MS 39216</a><br>
+            <i class="fa-solid fa-clock"></i>Mon - Fri: 9 AM to 8 PM
+            Sat: 10 AM to 8 PM <br>
+            Sun: 11 AM to 6:30 PM <br>
+            <i class="fa-regular fa-envelope"></i> <a href=""> info@mobileclinicms.com</a> <br>
+            <i class="fa-solid fa-phone-volume"></i> <a href="">601-874-4561</a>
+        </div>
+        <div class="box">
+            <h3>$Get $10 OFF</h3>
+            <p>Subscribe our newsletter to get our $10 OFF in your first repair</p>
+            <input type="email" placeholder="Email address">
+        </div>
+    </section>
+
+    <!-- ========================================================================= -->
+
+    <p
+        style="text-align: center; background-color: #3e3d3d; padding: 30px; margin: 0; color: rgb(191, 189, 189); height: 20px;">
+        <b>© Copyright 2025 by Mobile Clinic</b>
+    </p>
+
+    <div class="scroll">
+        <a href="http://127.0.0.1:5500/index.html"><i class="fa-solid fa-arrow-up"style="padding: 10px; color: blue;"></i></a>
+    </div>
+
+     <script src="index.js"></script>
+</body>
+
+</html>
+
+<!-- ===================================================== -->

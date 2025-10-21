@@ -1,0 +1,716 @@
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: block;
+}
+
+header .headertop {
+    background-color: #313030;
+    color: white;
+    display: flex;
+    column-gap: 20px;
+    flex-wrap: wrap;
+}
+
+.headertop p {
+    margin-left: 70px;
+}
+
+.headertop a {
+    text-decoration: none;
+    color: white;
+    padding: 0px 10px;
+}
+
+.headertop i {
+    color: aqua;
+}
+
+.headerbottom {
+    display: flex;
+    column-gap: 60px;
+    border-bottom: 2px solid blue;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 10;
+}
+
+.headerbottom .logo {
+    height: 80px;
+    width: 150px;
+    margin-left: 30px;
+    padding-top: 5px;
+}
+
+.navbar ul {
+    display: flex;
+    column-gap: 58px;
+    list-style: none;
+    padding: 10px 40px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(92, 92, 92);
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    color: black;
+}
+
+.navbar .fa-solid.fa-angle-down {
+    padding-left: 5px;
+}
+
+.header-btn {
+    width: 30%;
+    display: flex;
+    justify-content: end;
+}
+
+.header-btn button {
+    padding: 35px 60px;
+    font-size: 16px;
+    background-color: aqua;
+    border: 1px solid white;
+    clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.header-btn button:hover {
+    background-color: rgb(43, 27, 27);
+    color: white;
+    cursor: pointer;
+}
+
+.menubar {
+    display: none;
+}
+
+.menubar ul li {
+    list-style: none;
+    padding: 20px 50px;
+}
+
+.menubar a {
+    text-decoration: none;
+    color: rgb(92, 92, 92);
+    font-size: 18px;
+}
+
+.menubar .fa-solid.fa-angle-down {
+    padding-left: 5px;
+}
+
+.menubar a:hover {
+    color: black;
+}
+
+.menuicon {
+    padding: 30px;
+    display: none;
+}
+
+/* ============================================== */
+
+.main {
+    color: white;
+    height: 500px;
+    background-image: url(images/bg2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 28px;
+    text-align: center;
+}
+
+.main {}
+
+.main .previousbtn,
+.main .nextbtn {
+    background-color: rgb(38, 38, 45);
+    padding: 18px;
+    border-radius: 55%;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* =============================================== */
+
+.bgdevice {
+    height: 500px;
+    background-color: gray;
+}
+
+.bgdevice .selectdevice {
+    padding: 15px;
+    width: 85%;
+    margin: auto;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    position: relative;
+    bottom: 47px;
+    text-align: center;
+}
+
+.devices {
+    display: grid;
+    grid-template-columns: 190px 190px 190px 190px 190px;
+    justify-content: center;
+    margin-top: 70px;
+    column-gap: 10px;
+}
+
+.devices .item {
+    background-color: rgb(243, 243, 242);
+    height: 180px;
+    padding: 25px;
+    box-shadow: 5px 5px 4px -2px gray;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 1px solid #d5d5d5;
+}
+
+.devices .item:hover {
+    background-color: white;
+    box-shadow: 5px 5px 4px -2px gray;
+    border: 1px solid #d5d5d5;
+}
+
+.item img {
+    height: 60%;
+    width: 80%;
+}
+
+.item h3 {
+    padding: 14px;
+    color: blue;
+}
+
+.callnow {
+    background-color: blue;
+    display: flex;
+    width: 52%;
+    margin: auto;
+    padding: 2px 0px 2px 20px;
+    margin-top: 40px;
+    color: white;
+    border-radius: 10px;
+    column-gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.callnow button {
+    padding: 10px 40px;
+    font-size: 13px;
+    border-radius: 12px;
+    background-color: white;
+    border: none;
+    border: 1px solid white;
+}
+
+.callnow button:hover {
+    background-color: #01012b;
+    color: white;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+/* ================================================ */
+
+.features {
+    padding: 10px;
+    background-color: #f4f1f199;
+    display: flex;
+    flex-direction: column;
+}
+
+.features h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.featurecards {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.featurecards h2:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.featurecards p {
+    color: gray;
+}
+
+.skill,
+.Warranty,
+.repair {
+    width: 300px;
+    height: 280px;
+    padding: 20px;
+    position: relative;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.featurecards button {
+    font-size: initial;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: right;
+    width: 100%;
+    padding: 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.featurecards img {
+    background: blue;
+    padding: 15px;
+    border-radius: 50px;
+    border: 8px solid white;
+    position: absolute;
+    bottom: 10px;
+    left: 25px;
+}
+
+.featurecards img:hover {
+    background-color: #313030;
+}
+
+.featurecards button:hover {
+    background-color: #313030;
+    color: white;
+}
+/* ================================================= */
+
+.clientreview {
+    width: 100%;
+    position: relative;
+    padding: 50px 0px;
+}
+
+.clientreview .row {
+    display: flex;
+    align-items: center;
+    padding: 0px 50px;
+}
+
+.clintcards {
+    display: flex;
+    transition: transform 0.5s ease;
+    padding: 10px;
+    column-gap: 10px;
+    height: 100%;
+}
+.card {
+    flex: 0 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #e9eef2;
+    border: 1px solid #e9eef2;
+    justify-content: center;
+    padding: 0px 20px;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+
+
+.clintcards .card:hover {
+
+    background-color: white;
+    border: 1px solid rgb(228, 228, 228);
+
+}
+
+.qoeticon {
+    background-color: #313030;
+    padding: 20px;
+    width: 20px;
+    display: flex;
+    border-radius: 30px;
+    position: relative;
+    bottom: 26px;
+}
+
+.qoeticon i {
+    font-size: 22px;
+    color: white;
+}
+
+.clintcards .description {
+    padding: 25px 60px;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.clintcards .description i {
+    color: #ffa128;
+}
+.customername{
+    position: absolute;
+  bottom: -60px;
+  left: 50px;
+  line-height: 10px;
+}
+.customername strong{
+    color: gray;
+}
+
+
+
+/* ================================================== */
+
+.aboutus {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutus .image {
+    height: 580px;
+    width: 620px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.aboutus .image img {
+    height: 300px;
+    width: 400px;
+    position: relative;
+    border-radius: 8px;
+}
+
+.aboutus .aboutclinic {
+    height: 100%;
+    width: 480px;
+    padding: 34px;
+}
+
+.aboutclinic button {
+    padding: 20px 40px;
+    background: blue;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+}
+
+.aboutclinic button:hover {
+    background-color: #01012b;
+}
+
+/* =============================================== */
+
+section .map {
+    height: 400px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+section .map iframe {
+    height: 100%;
+    width: 88%;
+}
+
+/* ================================================= */
+
+.cashmobile {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    position: relative;
+    background-color: #3e3e40;
+}
+
+.cashmobile .cash {
+    width: 450px;
+    padding: 50px 90px;
+    height: 53%;
+}
+
+.cashmobile .cash button {
+    padding: 17px 35px;
+    background-color: blue;
+    border: none;
+    color: white;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.cashmobile .cash button:hover {
+    background-color: #01012b;
+    border: 1px solid white;
+}
+
+.cashmobile .mobileimg {
+    width: 450px;
+    padding: 50px;
+    height: 55%;
+}
+
+.cashmobile .banner {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: aqua;
+}
+
+/* ==================================================== */
+
+.footer {
+    border-bottom: 1px solid #171741;
+    background-color: #3e3d3d;
+    color: white;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    padding: 20px;
+    font-size: 18px;
+    line-height: 1.3;
+    flex-wrap: wrap;
+}
+
+.footer .box {
+    padding: 0px 20px;
+    height: 350px;
+    width: 230px;
+}
+
+.footer .box li {
+    list-style: none;
+    text-align: left;
+    margin-left: -38px;
+    margin-bottom: 23px;
+    cursor: pointer;
+}
+
+.box li:hover {
+    list-style: circle;
+    margin-left: 0px;
+    color: aqua;
+}
+
+.box a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer .box i {
+    color: aqua;
+    margin-top: 20px;
+    padding: 2px;
+}
+
+.box input {
+    padding: 18px 55px 18px 18px;
+    border-radius: 6px;
+    border: none;
+    margin-top: 30px;
+}
+
+.scroll {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #c1bebe;
+    padding: 5px;
+    border-radius: 60px;
+}
+
+/* ============================RESPONSIVE=============================== */
+
+@media screen and (max-width:1200px) {
+
+    .headerbottom {
+        column-gap: 45px;
+    }
+
+    .navbar ul {
+        column-gap: 40px;
+    }
+.header-btn button:hover {
+    background-color: rgb(43, 27, 27);
+    color: white;
+    cursor: pointer;
+}
+
+    .bgdevice {
+        height: 100%;
+    }
+
+    .selectdevice {
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .devices {
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+        row-gap: 20px;
+        justify-content: space-evenly;
+    }
+
+    .devices .item {
+        width: 200px;
+        height: 230px;
+    }
+
+    .callnow {
+        flex-direction: column;
+        row-gap: 30px;
+        padding: 20px;
+        align-items: center;
+    }
+
+    .callnow button {
+        padding: 12px 25px;
+    }
+
+    .cashmobile {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:1000px) {
+
+    header {
+        display: none;
+    }
+
+    .headerbottom {
+        position: inherit;
+        background-color: white;
+        margin-bottom: -16px;
+    }
+
+    .navbar,
+    .header-btn {
+        display: none;
+    }
+
+    .menubar.active {
+        display: flex;
+        justify-content: end;
+    }
+
+    .menuicon {
+        padding: 30px;
+        display: block;
+    }
+
+    .menubar {
+        display: none;
+        background-color: #000000c7;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        border-bottom-left-radius: 20px;
+    }
+
+    .menubar ul {
+        flex-direction: column;
+        margin-right: 50px;
+    }
+
+    .menubar ul li {
+        border-bottom: 1px sorgb(150, 148, 148)#444;
+        padding: 10px 0;
+        text-align: center;
+        border-bottom: 1px solid rgb(36, 35, 35);
+    }
+
+    .menubar a {
+        color: #a5ffff;
+    }
+
+    .menubar a:hover {
+        color: white;
+    }
+
+    .menubar .header-btn {
+        display: block;
+        width: 100%;
+    }
+
+    .header-btn button {
+        padding: 10px;
+        font-size: 15px;
+        border-radius: 10px;
+        clip-path: none;
+        border: none;
+    }
+
+    .header-btn button:hover {
+        background-color: #1212a3;
+    }
+
+.header-btn button:hover {
+    background-color: rgb(43, 27, 27);
+    color: white;
+    cursor: pointer;
+}
+    .main {
+        color: white;
+        font-size: 26px;
+        text-align: center;
+        background-position: bottom;
+        background-size: 1000px;
+        position: relative;
+    }
+
+    .features h1 {
+        text-align: center;
+        font-size: 37px;
+    }
+
+    .cashmobile {
+        flex-wrap: wrap;
+    }
+
+    .clientreview .row {
+        flex-wrap: wrap;
+    }
+
+    .aboutus {
+        flex-wrap: wrap;
+    }
+
+}
